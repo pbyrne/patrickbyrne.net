@@ -1,14 +1,12 @@
-/* Table of Contents (or SASS import statements, tbd)
- *
- * Reset
- * Basic Styles (Global/IE7-)
- * Mobile (exact modes tbd)
- * - iPhone Portrait
- * - iPhone Landscape
- * - iPad Portrait
- * - iPad Landscape
- * Desktop Less than 1028
- * Desktop Greater than 1028
- */
-
-@import "reset.scss"
+// basic reset, to get everything consistant
+@import "reset.sass"
+// bare styling, common to everyone, even lowly IE6
+@import "basic.sass"
+// styling for narrow screens, though used by everyone
+// TODO determine whether this is phones only or phones and tables, possibly different even for portrait and landscape?
+@import "narrow.sass"
+// loaded by wider screens, like desktops
+@import "standard.sass"
+// loaded by really wide screens, 1028 and up
+// TODO TBD if we even use the mega-wide layout; content probably doesn't support it
+// @import "wide.sass"
