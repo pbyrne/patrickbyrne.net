@@ -8,4 +8,5 @@ gem 'rb-fsevent' # to hook guard into FSEvents
 gem 'growl' # to allow growl notifications
 gem 'guard'
 gem 'guard-sass'
+gem 'guard-compass'
 
