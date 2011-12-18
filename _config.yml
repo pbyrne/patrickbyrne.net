@@ -1,0 +1,7 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Guardfile
+  - README.md
+  - config
+  - sass
