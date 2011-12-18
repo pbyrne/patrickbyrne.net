@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>PatrickByrne.net</title>
+    <link href="stylesheets/screen.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- TODO turn back on once I find a sensible way to add them invisibly for most users -->
+    <!-- <div id="skip"> -->
+    <!--   <p><a href="#primary">Skip to navigation</a></p> -->
+    <!--   <p><a href="#content">Skip to content</a></p> -->
+    <!-- </div> -->
+
+    <header>
+      <h1>
+        <a href="/index.html">patrickbyrne.net</a>
+      </h1>
+    </header>
+
+    {% include nav.html %}
+
+    <section id="content">
+      {{ content }}
+
+      {% include elsewhere.html %}
+    </section>
+
+    {% include footer.html %}
+  </body>
+</html>
+
