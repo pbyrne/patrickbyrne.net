@@ -1,9 +1,9 @@
 ---
 # YAML Front Matter Required By Jekyll
 ---
-// TODO replace .css with .sass so it imports server-side once this is ready to deploy
+// Sample basic blue color scheme: http://colorschemedesigner.com/#3V12yw0w0w0w0
+
 // basic reset, to get everything consistant
-// TODO review the compass reset stylesheet, and switch to that if it makes sense
 @import "stylesheets/reset";
 
 // basic mobile styling, common to everyone, even lowly IE6
@@ -11,7 +11,3 @@
 
 // loaded by wider screens, like desktops
 @import "stylesheets/wider";
-
-// loaded by really wide screens, 1028 and up
-// TODO TBD if we even use the mega-wide layout; content probably doesn't support it
-// @import "wide.css"
