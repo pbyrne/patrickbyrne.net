@@ -1,3 +1,4 @@
+auto: true
 exclude:
   - Gemfile
   - Gemfile.lock
