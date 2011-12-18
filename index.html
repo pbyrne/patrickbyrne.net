@@ -1,3 +1,6 @@
+---
+# required YAML front matter
+---
 <!DOCTYPE html>
 
 <html>
@@ -5,17 +8,13 @@
     <meta charset="utf-8" />
     <title>PatrickByrne.net</title>
     <link href="stylesheets/screen.css" rel="stylesheet" />
-    <!--
-      All JavaScript at the bottom, except for Modernizr / Respond.
-    -->
-    <!-- TODO figure out how to switch between development and production in jekyll to load the right modernizer -->
-    <script src="javascripts/vendor/modernizr-development.js"></script>
   </head>
   <body>
-    <div id="skip">
-      <p><a href="#primary">Skip to navigation</a></p>
-      <p><a href="#content">Skip to content</a></p>
-    </div>
+    <!-- TODO turn back on once I find a sensible way to add them invisibly for most users -->
+    <!-- <div id="skip"> -->
+    <!--   <p><a href="#primary">Skip to navigation</a></p> -->
+    <!--   <p><a href="#content">Skip to content</a></p> -->
+    <!-- </div> -->
 
     <header>
       <h1>
@@ -27,41 +26,9 @@
       Hello, I'm Patrick Byrne, web developer and all-around great guy. Something something about myself goes here. Copy to be determined.
     </aside>
 
-    <nav id="primary">
-      <ul>
-        <li>
-          <a href="index.html">home</a>
-        </li>
-        <li>
-          <a href="projects.html">projects</a>
-        </li>
-        <li>
-          <a href="about.html">about</a>
-        </li>
-      </ul>
-    </nav>
+    {% include nav.html %}
 
     <section id="content">
-      <article id="latest">
-        <h3>
-          <a href="article.html">Why "Killing Sacred Cows" Is A Stupid And Dangerous Book</a>
-        </h3>
-
-        <p>
-          So I picked up Killing Sacred Cows from the library, because it looked
-          intriguing. The cover says “Overcoming the financial myths that are destroying
-          your prosperity”. There are lots of hucksters separating good people from their
-          coin in the name of “helping” them financially: day-trading software vendors,
-          whole-life insurance salesmen, “financial counsellors” with no fiduciary
-          responsibility.
-        </p>
-
-        <p>
-          I thought maybe this book would take aim at those, or similar, false hopes.
-          Then I opened the book.
-        </p>
-      </article>
-
       <section id="elsewhere">
         <h2>Elsewhere</h2>
 
@@ -88,12 +55,6 @@
       </section>
     </section>
 
-    <footer>
-      Copyright &copy; 2011, Patrick Byrne
-    </footer>
-
-    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.6.2.min.js"><\/script>')</script>
+    {% include footer.html %}
   </body>
 </html>
