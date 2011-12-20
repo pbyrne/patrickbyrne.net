@@ -1,6 +1,7 @@
+// typography
+// vertical rhythm: base size of 16px; rhythm of 24px (1.5)
 $font: 16px;
 $base: 24px;
-$rhythm: $base / $font;
 
 // global, sectioning styles
 html {
@@ -13,7 +14,7 @@ body {
   color: #444;
   font-family: Helvetica, sans-serif;
   font-size: $font;
-  line-height: $rhythm;
+  line-height: $base;
   margin: 0px auto;
   max-width: 40%;
   min-width: 320px;
@@ -23,8 +24,6 @@ footer {
   text-align: center;
 }
 
-// typography
-// vertical rhythm: base size of 16px; rhythm of 1.5 (24px)
 
 h1 {
   font-size: $font * 2;
