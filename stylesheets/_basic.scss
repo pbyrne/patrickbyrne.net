@@ -28,6 +28,8 @@ footer {
 h1 {
   font-size: $font * 2;
   line-height: $base * 2;
+  margin-bottom: $base;
+  text-align: center;
 }
 
 h2 {
@@ -40,4 +42,23 @@ h3 {
   font-size: $font * 1.25;
   line-height: $base;
   margin: $base 0;
+}
+
+// primary navigation
+.nav-primary {
+  text-align: center;
+
+  li {
+    display: inline;
+    margin: auto $base / 2;
+  }
+}
+
+// states
+a.s-subtle {
+  text-decoration: none;
+}
+
+a.s-subtle:hover {
+  text-decoration: underline;
 }
