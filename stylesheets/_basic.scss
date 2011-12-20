@@ -1,3 +1,7 @@
+$font: 16px;
+$base: 24px;
+$rhythm: $base / $font;
+
 // global, sectioning styles
 html {
   // background: #444;
@@ -8,8 +12,8 @@ body {
   background: #f6f6f6;
   color: #444;
   font-family: Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: $font;
+  line-height: $rhythm;
   margin: 0px auto;
   max-width: 40%;
   min-width: 320px;
@@ -22,21 +26,19 @@ footer {
 // typography
 // vertical rhythm: base size of 16px; rhythm of 1.5 (24px)
 
-// 48/32: leave at 1.5
 h1 {
-  font-size: 2em;
+  font-size: $font * 2;
+  line-height: $base * 2;
 }
 
-// 24/24: line and margin to 1
 h2 {
-  font-size: 1.5em;
-  line-height: 1;
-  margin: 1em 0;
+  font-size: $base;
+  line-height: $base;
+  margin: $base 0;
 }
 
-// 24/20: line and margin to 1.2
 h3 {
-  font-size: 1.25em;
-  line-height: 1.2;
-  margin: 1.2em 0;
+  font-size: $font * 1.25;
+  line-height: $base;
+  margin: $base 0;
 }
