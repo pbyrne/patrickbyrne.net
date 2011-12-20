@@ -4,6 +4,6 @@ task :run do
 end
 
 desc "Generate the site"
-rake :generate do
+task :generate do
   sh "bundle exec jekyll"
 end
