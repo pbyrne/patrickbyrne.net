@@ -2,6 +2,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - Guardfile
+  - Rakefile
   - README.md
   - config
   - sass
+permalink: projects/:title
