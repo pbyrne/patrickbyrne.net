@@ -2,14 +2,14 @@
 layout: default
 title: "IsWhen iPhone App"
 published: true
-categories: ios api
+techs: [iOS, XML API, Xcode]
 ---
 
 ## {{ page.title }}
 
-<p class="categories">
-  {{ page.categories | array_to_sentence_string }}
-</p>
+<section class="tchs">
+  {{ page.techs | array_to_sentence_string }}
+</section>
 
 I built the IsWhen iPhone App for a couple reasons:
 
