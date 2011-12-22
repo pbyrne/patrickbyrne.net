@@ -21,6 +21,7 @@ body {
 }
 
 footer {
+  margin: $base * 2 0;
   text-align: center;
 }
 
@@ -52,6 +53,48 @@ h3 {
     display: inline;
     margin: auto $base / 2;
   }
+}
+
+// elsewhere
+.elsw > ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.elsw li {
+  margin: $base 0px;
+}
+
+a.elsw-link {
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  border-radius: 5px;
+  padding: 0px 15px 0px 30px;
+
+  &:hover {
+    background-color: #ccc;
+    -webkit-transition: background 0.5s ease;
+  }
+}
+
+a.elsw-twitter {
+  background-image: url(/images/icons/twitter.ico);
+}
+
+a.elsw-github {
+  background-image: url(/images/icons/github.ico);
+}
+
+a.elsw-rubygems {
+  background-image: url(/images/icons/rubygems.ico);
+}
+
+a.elsw-facebook {
+  background-image: url(/images/icons/facebook.ico);
+}
+
+a.elsw-linkedin {
+  background-image: url(/images/icons/linkedin.ico);
 }
 
 // states
