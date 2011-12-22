@@ -1,9 +1,10 @@
-<div class="rcnt">
+<section class="rcnt">
   <h2>Recent Projects</h2>
 
   {% for post in site.posts %}
     <article>
       <h3><a href="{{ post.url}}">{{ post.title }}</a></h3>
+
       {% if post.excerpt %}
         <p>{{ post.excerpt }}</p>
       {% else %}
@@ -11,4 +12,5 @@
       {% endif %}
     </article>
   {% endfor %}
-</div>
+</section>
+
