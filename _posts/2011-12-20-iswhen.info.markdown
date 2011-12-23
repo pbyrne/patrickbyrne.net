@@ -1,0 +1,24 @@
+---
+layout: default
+title: IsWhen.info
+published: true
+techs: [rails, ruby]
+excerpt: I built IsWhen.info so I never have to scramble to figure out when, for example, Thanksgiving occurs next. If anyone else gets any good out of it, all the better.
+---
+
+## {{ page.title }}
+
+<section class="tchs">
+  {{ page.techs | array_to_sentence_string }}
+</section>
+
+I built [IsWhen.info](http://iswhen.info/) so I never have to scramble to
+figure out when, for example, Thanksgiving occurs next. If anyone else gets any
+good out of it, all the better.
+
+Built in [Ruby on Rails](http://rubyonrails.org/), designed and implemented by
+me. The underlying data is gathered from around the internet. I hope it's all
+accurate.
+
+This information is also available through my [iPhone
+app](http://example.com/).
