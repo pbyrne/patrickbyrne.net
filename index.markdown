@@ -5,7 +5,8 @@ title: Developer. Husband. Great Dude.
 ---
 
 <aside>
-  Hello, I'm Patrick Byrne, web developer and all-around great guy. Something something about myself goes here. Copy to be determined.
+  Hello, I'm Patrick Byrne, web developer and all-around great guy. Something
+something about myself goes here. Copy to be determined.
 </aside>
 
 {% include recent-projects.html %}
