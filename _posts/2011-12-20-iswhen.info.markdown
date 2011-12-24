@@ -1,9 +1,10 @@
 ---
+excerpt: I built IsWhen.info so I never have to scramble to figure out when, for example, Thanksgiving occurs next. If anyone else gets any good out of it, all the better.
 layout: project
-title: IsWhen iswhen.info
+projurl: http://iswhen.info/
 published: true
 techs: [rails, ruby]
-excerpt: I built IsWhen.info so I never have to scramble to figure out when, for example, Thanksgiving occurs next. If anyone else gets any good out of it, all the better.
+title: IsWhen iswhen.info
 ---
 
 I built [IsWhen.info](http://iswhen.info/) so I never have to scramble to

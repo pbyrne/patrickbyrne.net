@@ -1,8 +1,9 @@
 ---
 layout: project
-title: "IsWhen iPhone App"
+projurl: http://iswhen.info/iphone
 published: true
 techs: [iOS, XML API, Xcode]
+title: "IsWhen iPhone App"
 ---
 
 I built the IsWhen iPhone App for a couple reasons:

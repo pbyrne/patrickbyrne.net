@@ -22,7 +22,13 @@
     {% include nav.html %}
 
     <section id="content">
-      <h2>{{ page.title}}</h2>
+      <h2>
+        {% if page.projurl %}
+          <a href="{{ page.projurl }}">{{ page.title }}</a>
+        {% else %}
+          {{ page.title}}
+        {% endif %}
+      </h2>
 
       <section class="tchs">
         {{ page.techs | array_to_sentence_string }}

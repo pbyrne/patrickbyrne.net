@@ -1,9 +1,10 @@
 ---
-layout: project
-title: "Cron Checker cronchecker.net"
-published: true
-techs: [ruby, cron, sinatra]
 excerpt: Quickly get plain-English explanations of your `cron` statements.
+layout: project
+projurl: http://cronchecker.net/
+published: true
+techs: [cron, Ruby, Sinatra]
+title: "Cron Checker cronchecker.net"
 ---
 
 I've long been frustrated with the highly technical explanations I found online
