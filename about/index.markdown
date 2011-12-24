@@ -25,3 +25,5 @@ team](http://tstmedia.com/) to make [online tools for youth sports
 organizations](http://ngin.com/).
 
 Additional boring details are available on [my resume](/files/resume.pdf).
+
+{% include elsewhere.html %}
