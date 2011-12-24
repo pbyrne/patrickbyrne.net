@@ -2,7 +2,7 @@
 layout: default
 title: PatrickByrne.net
 published: true
-techs: [Jekyll, Markdown, SASS]
+techs: [Jekyll, HTML5, Liquid, Markdown, SASS]
 ---
 
 ## {{ page.title }}
