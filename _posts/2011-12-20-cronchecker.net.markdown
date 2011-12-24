@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "CronChecker.net"
+title: "Cron Checker cronchecker.net"
 published: true
 techs: [ruby, cron, sinatra]
 excerpt: Quickly get plain-English explanations of your `cron` statements.
