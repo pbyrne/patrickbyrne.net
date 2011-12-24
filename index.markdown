@@ -9,6 +9,6 @@ title: Developer. Husband. Great Dude.
 something about myself goes here. Copy to be determined.
 </aside>
 
-{% include recent-projects.html %}
+{% include recent-projects.markdown %}
 
-{% include elsewhere.html %}
+{% include elsewhere.markdown %}

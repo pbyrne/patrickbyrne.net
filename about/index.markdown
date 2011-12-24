@@ -26,4 +26,4 @@ organizations](http://ngin.com/).
 
 Additional boring details are available on [my resume](/files/resume.pdf).
 
-{% include elsewhere.html %}
+{% include elsewhere.markdown %}
