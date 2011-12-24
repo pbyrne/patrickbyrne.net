@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PatrickByrne.net
+title: patrickbyrne.net
 published: true
 techs: [Jekyll, HTML5, Liquid, Markdown, SASS]
 ---
