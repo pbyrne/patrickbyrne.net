@@ -1,16 +1,10 @@
 ---
-layout: default
+layout: project
 title: "Cron Checker cronchecker.net"
 published: true
 techs: [ruby, cron, sinatra]
 excerpt: Quickly get plain-English explanations of your `cron` statements.
 ---
-
-## {{ page.title }}
-
-<section class="tchs">
-  {{ page.techs | array_to_sentence_string }}
-</section>
 
 I've long been frustrated with the highly technical explanations I found online
 of the [cron syntax](http://en.wikipedia.org/wiki/Cron#crontab_syntax). (For

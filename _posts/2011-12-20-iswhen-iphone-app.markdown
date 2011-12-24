@@ -1,15 +1,9 @@
 ---
-layout: default
+layout: project
 title: "IsWhen iPhone App"
 published: true
 techs: [iOS, XML API, Xcode]
 ---
-
-## {{ page.title }}
-
-<section class="tchs">
-  {{ page.techs | array_to_sentence_string }}
-</section>
 
 I built the IsWhen iPhone App for a couple reasons:
 
