@@ -1,3 +1,3 @@
 <footer>
-  Copyright &copy; 2011&mdash;2012 Patrick Byrne
+  Copyright &copy; 2008&mdash;2012 Patrick Byrne
 </footer>
