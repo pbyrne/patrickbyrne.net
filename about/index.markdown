@@ -24,6 +24,6 @@ company](http://gannett.com/). Now, I find myself working with [an amazing
 team](http://tstmedia.com/) to make [online tools for youth sports
 organizations](http://ngin.com/).
 
-Additional boring details are available on [my resume](/files/resume.pdf).
+Additional boring details are available on [my resume](/assets/files/resume.pdf).
 
 {% include elsewhere.markdown %}

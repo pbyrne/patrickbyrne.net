@@ -4,10 +4,10 @@
 // Sample basic blue color scheme: http://colorschemedesigner.com/#3V12yw0w0w0w0
 
 // basic reset, to get everything consistant
-@import "stylesheets/reset";
+@import "assets/stylesheets/reset";
 
 // basic mobile styling, common to everyone, even lowly IE6
-@import "stylesheets/basic";
+@import "assets/stylesheets/basic";
 
 // loaded by wider screens, like desktops
-@import "stylesheets/wider";
+@import "assets/stylesheets/wider";
