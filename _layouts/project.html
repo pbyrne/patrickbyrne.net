@@ -1,43 +1,17 @@
-<!DOCTYPE html>
+---
+layout: shared
+---
 
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>{{ page.title }} | Patrick Byrne</title>
-    <link href="/assets/stylesheets/screen.css" rel="stylesheet" />
-  </head>
-  <body>
-    <!-- TODO turn back on once I find a sensible way to add them invisibly for most users -->
-    <!-- <div id="skip"> -->
-    <!--   <p><a href="#primary">Skip to navigation</a></p> -->
-    <!--   <p><a href="#content">Skip to content</a></p> -->
-    <!-- </div> -->
+<h2>
+  {% if page.projurl %}
+    <a href="{{ page.projurl }}">{{ page.title }}</a>
+  {% else %}
+    {{ page.title}}
+  {% endif %}
+</h2>
 
-    <header>
-      <h1>
-        <a href="/" class="s-subtle">patrickbyrne.net</a>
-      </h1>
-    </header>
+<section class="tchs">
+{{ page.techs | array_to_sentence_string }}
+</section>
 
-    {% include nav.markdown %}
-
-    <section id="content">
-      <h2>
-        {% if page.projurl %}
-          <a href="{{ page.projurl }}">{{ page.title }}</a>
-        {% else %}
-          {{ page.title}}
-        {% endif %}
-      </h2>
-
-      <section class="tchs">
-        {{ page.techs | array_to_sentence_string }}
-      </section>
-
-      {{ content }}
-    </section>
-
-    {% include footer.markdown %}
-  </body>
-</html>
-
+{{ content }}
