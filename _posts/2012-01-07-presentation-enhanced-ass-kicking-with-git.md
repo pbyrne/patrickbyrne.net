@@ -1,5 +1,7 @@
 ---
-excerpt:
+excerpt: I gave this presentation at my amazing job, for our monthly Developer
+  Lunch. In it, I summarize how to configure Git to bypass some of its archaic
+  syntax and work more efficiently.
 layout: project
 projurl: http://presentations.patrickbyrne.net/git-ass-kicking/
 published: true
