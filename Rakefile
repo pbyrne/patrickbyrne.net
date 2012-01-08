@@ -20,7 +20,9 @@ desc "Create a new project page"
 task :new do
   puts "What is the project's name?"
   name = STDIN.gets.chomp
-  path = "_posts/#{Time.now.strftime('%Y-%m-%e')}-#{name}.md"
+  # convert any alphanumeric character to dashes
+  filename = name.downcase.gsub(/[^a-zA-Z0-9]+/, '-')
+  path = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{filename}.md"
   FileUtils.touch(path)
 
   open(path, 'a') do |f|
@@ -32,6 +34,11 @@ task :new do
     f.puts "techs: []"
     f.puts "title: \"#{name}\""
     f.puts "---"
+    f.puts ""
+    f.puts "## Purpose"
+    f.puts ""
+    f.puts "## What I Learned"
+    f.puts ""
   end
 end
 
