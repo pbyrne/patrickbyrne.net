@@ -35,9 +35,9 @@ task :new do
     f.puts "title: \"#{name}\""
     f.puts "---"
     f.puts ""
-    f.puts "## Purpose"
+    f.puts "## Why Did I Make This?"
     f.puts ""
-    f.puts "## What I Learned"
+    f.puts "## What Did I Learn?"
     f.puts ""
   end
 end
