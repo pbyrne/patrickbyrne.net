@@ -50,4 +50,9 @@ minimal, to support the points that you're making verbally for two reasons:
 * I wanted this presentation to stand alone as a reference document for the
   developers that weren't present and future hires.
 
+After giving this presentation, I realize that I did a poor job of maintaining
+any kind of narrative of keeping in mind how to make Git do more work so you
+don't have to. I provide examples of tweaks that I've done, but don't instruct
+on how to change your thinking to come up with new tweaks and aliases. I'll
+want to keep that in mind for future presentations.
 
