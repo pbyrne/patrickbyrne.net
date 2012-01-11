@@ -4,6 +4,7 @@ excerpt: I gave this presentation at my amazing job, for our monthly Developer
   syntax and work more efficiently.
 layout: project
 projurl: http://presentations.patrickbyrne.net/git-ass-kicking/
+codeurl: https://github.com/pbyrne/presentations
 published: true
 techs: [deck.js, Git, HTML5]
 title: "Presentation - Enhanced Ass-Kicking With Git"
