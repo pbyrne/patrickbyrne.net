@@ -11,8 +11,18 @@ layout: shared
 </h2>
 
 <section class="tchs">
-  Technologies:
-  {{ page.techs | array_to_sentence_string }}
+  <p>
+    Technologies:
+    {{ page.techs | array_to_sentence_string }}
+  </p>
 </section>
+
+{% if page.codeurl %}
+  <section>
+    <p>
+      Source: <a href="{{ page.codeurl }}">{{ page.codeurl }}</a>
+    </p>
+  </section>
+{% endif %}
 
 {{ content }}
