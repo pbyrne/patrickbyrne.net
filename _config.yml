@@ -7,3 +7,4 @@ exclude:
   - config
   - sass
 permalink: projects/:title
+paginate: 3
