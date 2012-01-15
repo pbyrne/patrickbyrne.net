@@ -12,7 +12,6 @@ end
 
 desc "Deploy the site"
 task :deploy do
-  # TODO replace node: with patrickbyrne.net: once dns is all sorted out
   sh "bundle exec jekyll && rsync -avz --delete _site/ patrickbyrne.net:/var/www/patrickbyrne.net/public"
 end
 
