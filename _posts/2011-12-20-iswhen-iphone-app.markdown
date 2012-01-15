@@ -1,4 +1,5 @@
 ---
+excerpt: An iOS app to display the contents of <a href="http://iswhen.info/">http://iswhen.info/</a>.
 layout: project
 projurl: http://iswhen.info/iphone
 published: true
