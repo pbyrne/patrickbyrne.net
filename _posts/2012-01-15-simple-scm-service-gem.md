@@ -2,7 +2,7 @@
 excerpt:
 layout: project
 projurl:https://github.com/pbyrne/sss
-published: true
+published: false
 techs: [Guard, RSpec, Ruby, Ruby Gems]
 title: "Simple SCM Service Gem"
 ---
