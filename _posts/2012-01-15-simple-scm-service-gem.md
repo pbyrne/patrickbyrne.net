@@ -29,3 +29,4 @@ so that they enjoy these same benefits.
 
 [mygems]: https://rubygems.org/profiles/pbyrne
 [RSpec]: http://rspec.info/
+[Thor]: https://github.com/wycats/thor
