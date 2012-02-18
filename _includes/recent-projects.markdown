@@ -6,7 +6,7 @@
   {% endfor %}
 
   <p>
-    Or, <a href="/projects/">view all projects</a>.
+    Or, <a href="/projects/">view all my projects</a>.
   </p>
 </section>
 
