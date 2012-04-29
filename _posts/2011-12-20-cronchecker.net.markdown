@@ -2,10 +2,13 @@
 excerpt: Quickly get plain-English explanations of your `cron` statements.
 layout: project
 projurl: http://cronchecker.net/
+codeurl: https://github.com/pbyrne/cron-checker
 published: true
 techs: [cron, Ruby, Sinatra]
 title: "Cron Checker cronchecker.net"
 ---
+
+## Why Did I Make This?
 
 I've long been frustrated with the highly technical explanations I found online
 of the [cron syntax](http://en.wikipedia.org/wiki/Cron#crontab_syntax). (For
@@ -18,5 +21,18 @@ Enter [CronChecker.net](http://cronchecker.net/). Type in a `cron` statement, an
 in **plain English** when it will run (or tell you it’s invalid if that’s the
 case). No fuss, no muss.
 
+## What Did I Learn?
 
+I had never released a [Sinatra] app, so I got good exposure to that
+technology. Thankfully, [Rack] and [Passenger] make deploying Sinatra just as
+simple as a Rails app.
 
+I was also able to release an application built entirely with [test-driven
+development][tdd] from the beginning. Aside from the benefits of testing all
+your code, writing the tests first help better-designed and more maintainable
+code, incentivizing small, reusable methods.
+
+[Sinatra]: http://www.sinatrarb.com/
+[Rack]: http://rack.rubyforge.org/
+[Passenger]: http://www.modrails.com/
+[tdd]: http://en.wikipedia.org/wiki/Test-driven_development

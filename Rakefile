@@ -12,7 +12,9 @@ end
 
 desc "Deploy the site"
 task :deploy do
-  # TODO replace node: with patrickbyrne.net: once dns is all sorted out
+  # year-month-day-hourminute
+  timestamp = Time.now.strftime('%Y-%m-%d-%H%M')
+  sh "git tag '#{timestamp}' && git push --tag"
   sh "bundle exec jekyll && rsync -avz --delete _site/ patrickbyrne.net:/var/www/patrickbyrne.net/public"
 end
 
