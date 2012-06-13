@@ -15,7 +15,7 @@ I live in the Twin Cities with my lovely wife. I'm originally from Iowa.  I
 like to cook. I mainly use Macintosh computers, because I care about the
 quality of my tools.
 
-I've had a fairly varied carreer, winding through technical support, technical
+I've had a fairly varied career, winding through technical support, technical
 writing and editing, and managing the web stores for a [major software
 company](http://learningcompany.com/), then discovered my passion for designing
 and creating software for [a wonderful local search
