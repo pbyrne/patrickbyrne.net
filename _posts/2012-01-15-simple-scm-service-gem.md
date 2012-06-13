@@ -1,5 +1,5 @@
 ---
-excerpt: A command-lin tool to easily manage lots of repositories.
+excerpt: A command-line tool to easily manage lots of repositories.
 layout: project
 projurl: https://github.com/pbyrne/sss
 published: true
