@@ -34,4 +34,4 @@ presentation software][deck.js] I used in Enhanced Ass-Kicking. I felt the pain
 of copying and pasting template code, but solving that (with something like
 Jekyll) will have to wait.
 
-
+[deck.js]:http://imakewebthings.github.com/deck.js/
