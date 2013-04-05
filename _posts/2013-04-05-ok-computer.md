@@ -3,7 +3,7 @@ excerpt: Inspired by Fitter Happier, but wanting greater flexibility, I built
   OK Computer to easily monitor various aspects of our applications' health.
 layout: project
 projurl: https://github.com/sportngin/okcomputer/
-published: false
+published: true
 techs: [RSpec, Ruby, Ruby Gems, Rails Engines]
 title: "OK Computer"
 ---
