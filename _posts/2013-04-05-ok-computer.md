@@ -5,7 +5,7 @@ layout: project
 projurl: https://github.com/sportngin/okcomputer/
 published: true
 techs: [RSpec, Ruby, Ruby Gems, Rails Engines]
-title: "OK Computer"
+title: "OK Computer - Application Health Check for Rails"
 ---
 
 ## Why Did I Make This?
