@@ -8,7 +8,7 @@ projurl: http://presentations.patrickbyrne.net/knowing-is-half-the-battle/
 codeurl: https://github.com/pbyrne/presentations
 published: true
 techs: [deck.js, HTML5]
-title: "Presentation - Enhanced Ass-Kicking With Git"
+title: "Presentation - Knowing is Half the Battle"
 ---
 
 ## Why Did I Make This?
