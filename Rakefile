@@ -24,7 +24,7 @@ task :new do
   name = STDIN.gets.chomp
   # convert any alphanumeric character to dashes
   filename = name.downcase.gsub(/[^a-zA-Z0-9]+/, '-')
-  path = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{filename}.md"
+  path = "_posts/#{Time.now.strftime('%Y-%m-%d')}-#{filename}.markdown"
   FileUtils.touch(path)
 
   open(path, 'a') do |f|
