@@ -1,13 +1,11 @@
----
-# YAML Front Matter Required By Jekyll
----
 // Sample basic blue color scheme: http://colorschemedesigner.com/#3V12yw0w0w0w0
 
 // basic reset, to get everything consistant
-@import "assets/stylesheets/reset";
+//= require _reset
 
 // basic mobile styling, common to everyone, even lowly IE6
-@import "assets/stylesheets/basic";
+//= require _basic
 
 // loaded by wider screens, like desktops
-@import "assets/stylesheets/wider";
+//= require _wider
+
