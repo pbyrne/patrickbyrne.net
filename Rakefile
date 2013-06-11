@@ -18,6 +18,11 @@ task :deploy do
   sh "bundle exec jekyll && rsync -avz --delete _site/ patrickbyrne.net:/var/www/patrickbyrne.net/public"
 end
 
+desc "Peform a health check on site source"
+task :checkup do
+  sh "bundle exec jekyll doctor"
+end
+
 desc "Create a new project page"
 task :new do
   puts "What is the project's name?"
