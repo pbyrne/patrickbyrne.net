@@ -2,7 +2,7 @@ task :default => :run
 
 desc "Run the Jekyll server, picking up changes as they happen"
 task :run do
-  sh "bundle exec jekyll --server --auto"
+  sh "bundle exec jekyll serve --watch"
 end
 
 desc "Generate the site"
