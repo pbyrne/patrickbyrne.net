@@ -7,7 +7,7 @@ end
 
 desc "Generate the site"
 task :generate do
-  sh "bundle exec jekyll"
+  sh "bundle exec jekyll build"
 end
 
 desc "Deploy the site"
@@ -15,7 +15,7 @@ task :deploy do
   # year-month-day-hourminute
   timestamp = Time.now.strftime('%Y-%m-%d-%H%M')
   sh "git tag '#{timestamp}' && git push --tag"
-  sh "bundle exec jekyll && rsync -avz --delete _site/ patrickbyrne.net:/var/www/patrickbyrne.net/public"
+  sh "bundle exec jekyll build && rsync -avz --delete _site/ patrickbyrne.net:/var/www/patrickbyrne.net/public"
 end
 
 desc "Peform a health check on site source"
