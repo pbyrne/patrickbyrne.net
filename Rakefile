@@ -2,7 +2,7 @@ task :default => :run
 
 desc "Run the Jekyll server, picking up changes as they happen"
 task :run do
-  sh "bundle exec jekyll --server --auto"
+  sh "bundle exec jekyll serve --watch"
 end
 
 desc "Generate the site"
@@ -16,6 +16,11 @@ task :deploy do
   timestamp = Time.now.strftime('%Y-%m-%d-%H%M')
   sh "git tag '#{timestamp}' && git push --tag"
   sh "bundle exec jekyll && rsync -avz --delete _site/ patrickbyrne.net:/var/www/patrickbyrne.net/public"
+end
+
+desc "Peform a health check on site source"
+task :checkup do
+  sh "bundle exec jekyll doctor"
 end
 
 desc "Create a new project page"
