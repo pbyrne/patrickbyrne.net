@@ -8,3 +8,4 @@ exclude:
   - sass
 permalink: projects/:title
 paginate: 5
+relative_permalinks: false
