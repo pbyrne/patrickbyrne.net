@@ -1,5 +1,5 @@
 <article>
-  <h3><a href="/{{ project.url}}">{{ project.title }}</a></h3>
+  <h3><a href="{{ project.url}}">{{ project.title }}</a></h3>
 
   {% if project.excerpt %}
     <p>{{ project.excerpt }}</p>
