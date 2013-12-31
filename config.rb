@@ -18,6 +18,12 @@ configure :build do
   activate :cache_buster
 end
 
+# COMPASS CONFIGURATION
+compass_config do |config|
+  # Make the stylesheets as small as possible
+  config.output_style = :compressed
+end
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
