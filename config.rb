@@ -1,8 +1,9 @@
 require "slim"
 
 # CONFIGURATION
-set :css_dir, 'stylesheets'
-set :images_dir, 'images'
+set :css_dir, "stylesheets"
+set :images_dir, "images"
+set :partials_dir, "partials"
 # Reload the browser automatically whenever files change
 activate :livereload, host: "localhost"
 # Make pretty URLs for every page (e.g. /foo rather than /foo.html)
@@ -25,10 +26,22 @@ compass_config do |config|
 end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def projects(limit=2)
+    pages_by_path("projects/", limit)
+  end
+
+  def notes(limit=2)
+    pages_by_path("notes/", limit)
+  end
+
+  def presentations(limit=2)
+    pages_by_path("presentations/", limit)
+  end
+
+  def pages_by_path(path, limit)
+    sitemap.resources.find_all { |r| r.path.start_with? path}.sort_by { |r| r.data.date || Date.new(2000,1,1) }.reverse[0...limit]
+  end
+end
 
 

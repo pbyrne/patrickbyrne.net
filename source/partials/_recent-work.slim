@@ -1,0 +1,23 @@
+section.prjs
+  h2 Recent Projects
+
+  - for project in projects
+    == partial "summary", locals: {item: project}
+
+  p.view-all == link_to "all projects", "/projects.html"
+
+section.pres
+  h2 Recent Presentations
+
+  - for presentation in presentations
+    == partial "summary", locals: {item: presentation}
+
+  p.view-all == link_to "all presentations", "/presentations.html"
+
+section.ntes
+  h2 Recent Notes
+
+  - for note in notes
+    == partial "summary", locals: {item: note}
+
+  p.view-all == link_to "all notes", "/notes.html"
