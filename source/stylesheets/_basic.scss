@@ -1,0 +1,110 @@
+// typography
+// vertical rhythm: base size of 16px; rhythm of 24px (1.5)
+$font: 16px;
+$base: 24px;
+
+// global, sectioning styles
+html {
+  // background: #444;
+  // color: #f6f6f6;
+}
+
+body {
+  background: #f6f6f6;
+  color: #444;
+  font-family: Helvetica, sans-serif;
+  font-size: $font;
+  line-height: $base;
+  margin: 0px auto;
+  max-width: 40%;
+  min-width: 300px;
+  padding: 0px 10px;
+}
+
+footer {
+  margin: $base * 2 0;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: $font * 2;
+  line-height: $base * 2;
+  margin-bottom: $base;
+  text-align: center;
+}
+
+h2 {
+  font-size: $base;
+  line-height: $base;
+  margin: $base 0;
+}
+
+h3 {
+  font-size: $font * 1.25;
+  line-height: $base;
+  margin: $base 0;
+}
+
+// primary navigation
+.nav-primary {
+  text-align: center;
+
+  li {
+    display: inline;
+    margin: auto $base / 2;
+  }
+}
+
+// elsewhere
+.elsw > ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.elsw li {
+  margin: $base 0px;
+}
+
+a.elsw-link {
+  background-image: url(/assets/images/sprites/elsewhere.png);
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  border-radius: 5px;
+  padding: 0px 15px 0px 30px;
+
+  &:hover {
+    background-color: #ccc;
+    -webkit-transition: background 0.5s ease;
+  }
+}
+
+a.elsw-twitter {
+  background-position: 10px -120px;
+}
+
+a.elsw-github {
+  background-position: 10px -30px;
+}
+
+a.elsw-rubygems {
+  background-position: 10px -90px;
+}
+
+a.elsw-facebook {
+  background-position: 10px 0px;
+}
+
+a.elsw-linkedin {
+  background-position: 10px -60px;
+}
+
+// states
+a.s-subtle {
+  text-decoration: none;
+}
+
+a.s-subtle:hover {
+  text-decoration: underline;
+}
+
