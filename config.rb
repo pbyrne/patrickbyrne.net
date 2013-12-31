@@ -27,6 +27,19 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def include_work_item_prefix?
+    %w(index.html work.html).include? current_page.path
+  end
+
+  def title_prefix(work_item)
+    prefix = work_item.path.split("/").first.to_s.capitalize.singularize
+    "#{prefix}: " if prefix
+  end
+
+  def recent_work(limit=5)
+    pages_by_path(["projects/", "notes/", "presentations/"], limit)
+  end
+
   def projects(limit=2)
     pages_by_path("projects/", limit)
   end
@@ -39,8 +52,15 @@ helpers do
     pages_by_path("presentations/", limit)
   end
 
-  def pages_by_path(path, limit)
-    sitemap.resources.find_all { |r| r.path.start_with? path}.sort_by { |r| r.data.date || Date.new(2000,1,1) }.reverse[0...limit]
+  def pages_by_path(path_or_paths, limit)
+    limit = -1 if limit == :all
+    sitemap.resources.find_all do |resource|
+      Array(path_or_paths).any? do |path|
+        resource.path.start_with? path
+      end
+    end.sort_by do |resource|
+      resource.data.date || Date.new(2000,1,1)
+    end.reverse[0...limit]
   end
 end
 
