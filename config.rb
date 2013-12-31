@@ -62,6 +62,14 @@ helpers do
       resource.data.date || Date.new(2000,1,1)
     end.reverse[0...limit]
   end
+
+  def link_to_unless_current(text, path, **options)
+    if current_page.path == path
+      text
+    else
+      link_to text, path, options
+    end
+  end
 end
 
 
