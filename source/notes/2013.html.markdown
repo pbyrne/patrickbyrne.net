@@ -1,0 +1,57 @@
+---
+date: 2014-01-01
+excerpt: 2013 was a hell of a year and I have a lot of people to thank.
+layout: note
+title: 2013
+---
+
+2013 was a pretty big year for me, personally and professionally. A lot of
+people went into making it so great, and I want to take a moment to think about
+that a thank them.
+
+First on the list, obviously, is my wife Angela, for supporting even my
+stranger ideas. Without her strength, I doubt I'd have taken some of the risks
+I did.
+
+I also want to thank Dan and Rich (and the rest of the team at Dribbble, Sam
+and Tristan and Susana) for asking me to join the Dribbble family. We're six
+months in and it's been one of the most exciting times in my career.
+
+But I never would have picked up the skills necessary if Luke, Greg, Carson, and
+Justin hadn't have taken a chance on me a few years ago. I learned so much at
+Sport Ngin both culturally and technically. That they encouraged me even as I
+was leaving to join Dribbble speaks to their characters. Thank you.
+
+I'd be remiss if I didn't thank the development team at Sport Ngin, and
+specifically my old teammates Andy and Ian.  My job is definitely harder
+without having them as my outboard brain. Thank you for all the help you gave
+me.
+
+Thank you Mike, for giving me my first public speaking experience, when you let
+me speak at the Node MN meetup.
+
+Thanks also to Sedation Dentistry in St Paul, for showing me that a visit to
+the dentist doesn't have to be traumatic. Thanks also to Angela for making me
+go, after I hadn't been to a dentist since high school.
+
+Chris deserves thanks for helping me expand my public-speaking comfort zone by
+inviting me to be a guest on his soon-to-be-released podcast. I'm looking
+forward to seeing that come together.
+
+I want to thank the Madison Ruby Conference for bringing great people together,
+and for building a tremendous, fun, and unique conference. It doesn't hurt that
+it's one of the few that's accessible to the upper Midwest.
+
+Special thanks go to my family, for always being proud of me, even when I
+didn't bring home a grandchild for Christmas the way my mom keeps asking me to
+do.
+
+Thanks to my friends for the support, help, and kicks in the pants that I've
+needed. Thank you also to Zebb for inviting me to be a part of your wedding in
+2014.
+
+One more thanks to Angela for being patient with me as we learn to be homeowners.
+
+I'm sure that I've missed some important people in this list, and for that I
+can only apologize for my neglect.
+

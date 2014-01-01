@@ -35,8 +35,8 @@ helpers do
   end
 
   def title_prefix(work_item)
-    prefix = work_item.path.split("/").first.to_s.capitalize.singularize
-    "#{prefix}: " if prefix
+    prefix = work_item.path.split("/").first
+    "#{humanize_section_name(prefix).singularize}: " if prefix
   end
 
   def recent_work(limit=5)
@@ -56,14 +56,19 @@ helpers do
   end
 
   def pages_by_path(path_or_paths, limit)
-    limit = -1 if limit == :all
-    sitemap.resources.find_all do |resource|
+    resources = sitemap.resources.find_all do |resource|
       Array(path_or_paths).any? do |path|
         resource.path.start_with? path
       end
     end.sort_by do |resource|
       resource.data.date || Date.new(2000,1,1)
-    end.reverse[0...limit]
+    end.reverse
+
+    if limit == :all
+      resources
+    else
+      resources[0...limit]
+    end
   end
 
   def link_to_unless_current(text, path, **options)
@@ -72,6 +77,15 @@ helpers do
     else
       link_to text, path, options
     end
+  end
+
+  def link_to_section(page)
+    section_fragment = page.path.split("/").first
+    link_to humanize_section_name(section_fragment), "/#{section_fragment}.html"
+  end
+
+  def humanize_section_name(name)
+    name.to_s.capitalize
   end
 end
 
