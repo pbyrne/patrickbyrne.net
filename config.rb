@@ -10,6 +10,7 @@ activate :livereload, host: "localhost"
 activate :directory_indexes
 # Creage pre-built gzipped versions of files, for nginx to leverage
 activate :gzip
+# Smoosh HTML as small as possible
 activate :minify_html
 
 # BUILD-SPECIFIC CONFIGURATION
