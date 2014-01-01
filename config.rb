@@ -8,10 +8,12 @@ set :partials_dir, "partials"
 activate :livereload, host: "localhost"
 # Make pretty URLs for every page (e.g. /foo rather than /foo.html)
 activate :directory_indexes
+# Creage pre-built gzipped versions of files, for nginx to leverage
+activate :gzip
+activate :minify_html
 
 # BUILD-SPECIFIC CONFIGURATION
 configure :build do
-  # For example, change the Compass output style for deployment
   activate :minify_css
 
   # Enable cache buster
