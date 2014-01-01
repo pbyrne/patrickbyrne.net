@@ -12,6 +12,8 @@ activate :directory_indexes
 activate :gzip
 # Smoosh HTML as small as possible
 activate :minify_html
+# Customize markdown output
+set :markdown, smartypants: true
 
 # BUILD-SPECIFIC CONFIGURATION
 configure :build do
