@@ -67,7 +67,7 @@ helpers do
   end
 
   def link_to_unless_current(text, path, **options)
-    if current_page.path == path
+    if "/#{current_page.path}" == path
       text
     else
       link_to text, path, options
