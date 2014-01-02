@@ -1,5 +1,6 @@
 ---
 date: 2014-01-01
+excerpt: We can rebuild it. We have the technology.
 layout: project
 techs: [Middleman, Sass, Slim]
 title: patrickbyrne.net 2.0
