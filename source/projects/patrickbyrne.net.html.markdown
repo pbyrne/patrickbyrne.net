@@ -9,6 +9,11 @@ title: patrickbyrne.net
 
 PatrickByrne.net is my personal site, which you're looking at right now.
 
+**Note**: This article is out of date. Check out [my latest posting about the
+rebuilt Patrickbyrne.net][2.0].
+
+[2.0]: http://patrickbyrne.net/projects/patrickbyrne.net-nuevo/
+
 ## Why Did I Make This?
 
 I needed a website, which I wanted to manage entirely on my own (so no hosted
