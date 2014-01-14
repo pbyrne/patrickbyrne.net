@@ -1,0 +1,23 @@
+---
+title: Contact
+---
+
+form.mod-contact method="post" action="http://contactform.patrickbyrne.net"
+  div.mod-contact-fields
+    fieldset
+      label for="mod-contact-name" Name
+      input#mod-contact-name type="text" name="name"
+
+    fieldset
+      label for="mod-contact-email" Email address
+      input#mod-contact-email type="email" name="email"
+
+    fieldset
+      label for="mod-contact-message" Message
+      textarea#mod-contact-message name="message"
+
+  div.mod-contact-actions
+    fieldset
+      input type="submit" name="submit" value="Send"
+
+== partial "elsewhere"
