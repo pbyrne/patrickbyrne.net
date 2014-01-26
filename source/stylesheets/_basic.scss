@@ -49,10 +49,26 @@ h3 {
 // primary navigation
 .nav-primary {
   text-align: center;
+  position: relative;
 
   li {
     display: inline;
     margin: auto $base / 2;
+
+    &:hover {
+      ul {
+        display: block;
+      }
+    }
+
+    ul {
+      display: none;
+      left: 0px;
+      margin-top: 0px;
+      position: absolute;
+      width: 100%;
+      top: $base - 3px; // eliminate fidly gap between hover and subnav which makes the links sometimes dissapear too quickly
+    }
   }
 }
 
