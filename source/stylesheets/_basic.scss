@@ -129,3 +129,19 @@ a.s-subtle:hover {
   text-decoration: underline;
 }
 
+
+.mod-contact {
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+  input, textarea {
+    display: block;
+    width: 90%;
+  }
+
+  input[type=submit] {
+    width: auto;
+  }
+}
