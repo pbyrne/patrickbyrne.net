@@ -16,9 +16,10 @@ body {
   font-size: $font;
   line-height: $base;
   margin: 0px auto;
-  max-width: 40%;
+  max-width: 500px;
   min-width: 300px;
   padding: 0px 10px;
+  width: 40%;
 }
 
 footer {
@@ -144,4 +145,15 @@ a.s-subtle:hover {
   input[type=submit] {
     width: auto;
   }
+}
+
+blockquote {
+  background: #EEEEEE;
+  border-radius: 4px;
+  margin: 0px 0px 16px;
+  padding: 16px 32px;
+}
+
+img {
+  max-width: 100%;
 }
