@@ -7,6 +7,8 @@ title: The Space Between the Notes
 
 I'm writing this in an airport terminal, waiting for a plane that will take me two time zones away from my pregnant wife. Buckle in; this will almost certainly ramble quite a bit.
 
+-------
+
 As it happens, August is a busy month of travel for me, attending [Dribbble meetups][meetups] in Salem and San Francisco, and attending the [Madison+ Ruby conference][madruby] at the end of the month.
 It's good that these are all in August, because Angela and I decided a while ago that we wouldn't plan any travel starting September, as we approach the October due date for our baby boy, whom we've nicknamed Ragnar until we can figure out an actual name we can both live with.
 
@@ -49,19 +51,19 @@ The pictures that came out of that bout of goofing off are, frankly, some of my 
 
 I get up in her face with the camera while she's adjusting her sleeves for the photo shoot, to which she reacts understandably annoyed.
 
-![Angela, glaring at me](images/photos/space-between-the-notes/candid-angela-phase-a-500.jpg)
+![Angela, glaring at me](images/photos/space-between-the-notes/candid-angela-phase-a-500-cf2f5530.jpg)
 
 ### Phase B
 
 She returns to the task at hand, believe that I've gotten the message to wait to take her picture.
 
-![Angela, not realizing her picture is being taken](images/photos/space-between-the-notes/candid-angela-phase-b-500.jpg)
+![Angela, not realizing her picture is being taken](images/photos/space-between-the-notes/candid-angela-phase-b-500-553edb26.jpg)
 
 ### Phase C
 
 Realizing that I'm still taking her picture, she flips me the bird.
 
-![Angela, flipping me the bird](images/photos/space-between-the-notes/candid-angela-phase-c-500.jpg)
+![Angela, flipping me the bird](images/photos/space-between-the-notes/candid-angela-phase-c-500-335dfc63.jpg)
 
 ------
 
