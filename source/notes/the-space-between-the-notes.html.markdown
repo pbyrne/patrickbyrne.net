@@ -9,8 +9,8 @@ I'm writing this in an airport terminal, waiting for a plane that will take me t
 
 -------
 
-As it happens, August is a busy month of travel for me, attending [Dribbble meetups][meetups] in Salem and San Francisco, and attending the [Madison+ Ruby conference][madruby] at the end of the month.
-It's good that these are all in August, because Angela and I decided a while ago that we wouldn't plan any travel starting September, as we approach the October due date for our baby boy, whom we've nicknamed Ragnar until we can figure out an actual name we can both live with.
+As it happens, August is a busy month of travel for me, attending [Dribbble meetups][meetups] in Salem and San Francisco and attending the [Madison+ Ruby conference][madruby] at the end of the month.
+It's good that these all happened to be in August, because Angela and I decided a while ago that we wouldn't plan any travel starting September, as we approach the October due date for our baby boy, whom we've nicknamed Ragnar until we can figure out an actual name we can both live with.
 
 The Salem trip came at an interesting time in the pregnancy.
 Angela's been feeling little Ragnar moving and kicking for a long time, but I haven't been able to participate.
@@ -55,7 +55,7 @@ I get up in her face with the camera while she's adjusting her sleeves for the p
 
 ### Phase B
 
-She returns to the task at hand, believe that I've gotten the message to wait to take her picture.
+She returns to the task at hand, believing that I've gotten the message to wait to take her picture.
 
 ![Angela, not realizing her picture is being taken](the-space-between-the-notes/candid-angela-phase-b-500.jpg)
 
@@ -63,7 +63,7 @@ She returns to the task at hand, believe that I've gotten the message to wait to
 
 Realizing that I'm still taking her picture, she flips me the bird.
 
-![Angela, flipping me the bird!](the-space-between-the-notes/candid-angela-phase-c-500.jpg)
+![Angela, flipping me the bird](the-space-between-the-notes/candid-angela-phase-c-500.jpg)
 
 ------
 
