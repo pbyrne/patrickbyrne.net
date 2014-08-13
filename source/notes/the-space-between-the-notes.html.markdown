@@ -55,7 +55,7 @@ I get up in her face with the camera while she's adjusting her sleeves for the p
 
 ### Phase B
 
-She returns to the task at hand, believing that I've gotten the message to wait to take her picture.
+She returns to the task at hand, believing that I'd gotten the message to wait to take her picture.
 
 ![Angela, not realizing her picture is being taken](the-space-between-the-notes/candid-angela-phase-b-500.jpg)
 
