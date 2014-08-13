@@ -51,19 +51,19 @@ The pictures that came out of that bout of goofing off are, frankly, some of my 
 
 I get up in her face with the camera while she's adjusting her sleeves for the photo shoot, to which she reacts understandably annoyed.
 
-![Angela, glaring at me](images/photos/space-between-the-notes/candid-angela-phase-a-500-cf2f5530.jpg)
+![Angela, glaring at me](the-space-between-the-notes/candid-angela-phase-a-500.jpg)
 
 ### Phase B
 
 She returns to the task at hand, believe that I've gotten the message to wait to take her picture.
 
-![Angela, not realizing her picture is being taken](images/photos/space-between-the-notes/candid-angela-phase-b-500-553edb26.jpg)
+![Angela, not realizing her picture is being taken](the-space-between-the-notes/candid-angela-phase-b-500.jpg)
 
 ### Phase C
 
 Realizing that I'm still taking her picture, she flips me the bird.
 
-![Angela, flipping me the bird](images/photos/space-between-the-notes/candid-angela-phase-c-500-335dfc63.jpg)
+![Angela, flipping me the bird!](the-space-between-the-notes/candid-angela-phase-c-500.jpg)
 
 ------
 
