@@ -32,6 +32,10 @@ end
 
 # Methods defined in the helpers block are available in templates
 helpers do
+  def page_title
+    [current_page.data.title, "Patrick Byrne"].compact.join(" | ")
+  end
+
   def include_work_item_prefix?
     %w(index.html work.html).include? current_page.path
   end

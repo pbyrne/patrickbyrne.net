@@ -9,8 +9,7 @@ html
     / Always force latest IE rendering engine or request Chrome Frame
     meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"
 
-    / Use title if it's in the page YAML frontmatter
-    title #{ current_page.data.title } | Patrick Byrne
+    title == page_title
 
     == stylesheet_link_tag "screen"
 
