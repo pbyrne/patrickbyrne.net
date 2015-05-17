@@ -6,7 +6,7 @@ html
     meta name="viewport" content="width=device-width"
     meta name="google-site-verification" content="aX3BAJHh7coNSE7pXP4Kw7iUVCLzXvGlvdUg8Ap6r6M"
     title == page_title
-    == stylesheet_link_tag "screen", media: "screen"
+    == stylesheet_link_tag "application"
     link rel="icon" type="image/gif" href="#{ asset_path :images, "icons/patrickbyrne.net.gif" }"
   body class="#{page_classes}"
     // header
@@ -19,4 +19,6 @@ html
     // footer
     footer role="contentinfo"
       p Copyright &copy; 2008&ndash;#{Date.today.year} Patrick Byrne
+    // final JS
+    == javascript_include_tag "application"
 
