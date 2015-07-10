@@ -1,0 +1,27 @@
+<% wrap_layout :layout do %>
+  <h2>
+    <% if current_page.data.projurl %>
+      <%= link_to current_page.data.title, current_page.data.projurl %>
+    <% else %>
+      <%= current_page.data.title %>
+    <% end %>
+  </h2>
+
+  <% if current_page.data.techs %>
+    <section class="tchs">
+      <p>Technologies: <%= Array(current_page.data.techs).join(", ") %></p>
+    </section>
+  <% end %>
+
+  <% if current_page.data.codeurl %>
+    <section>
+      <p>Source: <%= link_to current_page.data.codeurl, current_page.data.codeurl %></p>
+    </section>
+  <% end %>
+
+  <%= yield %>
+
+  <hr>
+
+  <%= partial "item_metadata" %>
+<% end %>

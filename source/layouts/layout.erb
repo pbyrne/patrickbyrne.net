@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "initial-scale=1.0, width=device-width">
+    <meta name="google-site-verification" content="aX3BAJHh7coNSE7pXP4Kw7iUVCLzXvGlvdUg8Ap6r6M">
+    <title><%= page_title %></title>
+    <%= stylesheet_link_tag "application" %>
+    <link rel="icon" type="image/gif" href="<%= asset_path :images, "icons/patrickbyrne.net.gif" %>">
+  </head>
+
+  <body class="<%= page_classes %>">
+    <header role="banner">
+      <h1><%= link_to "patrickbyrne.net", "/" %></h1>
+      <nav class="primary" role="navigation">
+      </nav>
+    </header>
+
+    <section class="content">
+      <%= yield %>
+    </section>
+
+    <footer role="contentinfo">
+      <p>Copyright &copy; 2008&ndash;<%= Date.today.year %> Patrick Byrne</p>
+    </footer>
+
+    <%= javascript_include_tag "application" %>
+  </body>
+</html>

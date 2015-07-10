@@ -1,0 +1,10 @@
+<% wrap_layout :layout do %>
+  <h2><%= current_page.data.title %></h2>
+
+  <%= yield %>
+
+  <hr>
+
+  <%= partial "item_metadata" %>
+<% end %>
+
