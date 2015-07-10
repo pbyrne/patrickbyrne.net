@@ -1,8 +1,0 @@
-section.work
-  h2 Recent work
-
-  - for item in recent_work
-    == partial "summary", locals: {item: item, prefix_title: true}
-
-  p.view-all == link_to "all work", "/work.html"
-

@@ -1,0 +1,13 @@
+<section class="work">
+
+  <h2>Recent work</h2>
+
+  <% recent_work.each do |item| %>
+    <%= partial "summary", locals: {item: item, prefix_title: true} %>
+  <% end %>
+
+  <p class="view-all">
+    <%= link_to "all work", "/work.html" %>
+  </p>
+
+</section>

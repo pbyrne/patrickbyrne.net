@@ -1,0 +1,32 @@
+---
+title: Contact
+---
+
+<p>Want to get in touch? Here you go.</p>
+
+<form class="mod-contact" method="post" action="http://contactform.patrickbyrne.net">
+  <div class="mod-contact-fields">
+    <fieldset>
+      <label for="mod-contact-name">Name</label>
+      <input id="mod-contact-name" type="text" name="name">
+    </fieldset>
+
+    <fieldset>
+      <label for="mod-contact-email">Email address</label>
+      <input id="mod-contact-email" type="email" name="email">
+    </fieldset>
+
+    <fieldset>
+      <label for="mod-contact-message">Message</label>
+      <textarea id="mod-contact-message" name="message" rows=6>
+    </fieldset>
+  </div>
+
+  <div class="mod-contact-actions">
+    <fieldset>
+      <input type="submit" name="submit" value="Send">
+    </fieldset>
+  </div>
+</form>
+
+<%= partial "elsewhere" %>

@@ -1,0 +1,12 @@
+<article>
+  <h3>
+    <% link_to item.url do %>
+      <%= title_prefix(item) if include_work_item_prefix? %>
+      <%= item.data.title %>
+    <% end %>
+  </h3>
+
+  <% if item.data.excerpt %>
+    <p><%= item.data.excerpt %></p>
+  <% end %>
+</article>
