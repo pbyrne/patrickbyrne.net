@@ -58,10 +58,10 @@ helpers do
   end
 
   def pages_by_path(path_or_paths, limit)
+    paths = Array(path_or_paths)
     resources = sitemap.resources.find_all do |resource|
-      Array(path_or_paths).any? do |path|
-        resource.path.start_with? path
-      end
+      resource.path.end_with?(".html") &&
+        paths.any? { |path| resource.path.start_with? path }
     end.sort_by do |resource|
       resource.data.date || Date.new(2000,1,1)
     end.reverse
