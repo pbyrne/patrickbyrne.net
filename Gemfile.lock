@@ -30,7 +30,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
     erubis (2.7.0)
-    eventmachine (1.0.7)
+    eventmachine (1.0.8)
     execjs (2.5.2)
     ffi (1.9.10)
     haml (4.0.6)
@@ -141,4 +141,4 @@ DEPENDENCIES
   susy
 
 BUNDLED WITH
-   1.10.2
+   1.11.2
