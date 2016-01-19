@@ -1,0 +1,10 @@
+---
+title: Presentations
+---
+
+<h1>Presentations</h1>
+
+<% presentations(:all).each do |item| %>
+  <%= partial "summary", locals: {item: item, prefix_title: false} %>
+<% end %>
+
