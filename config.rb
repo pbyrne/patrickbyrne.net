@@ -1,7 +1,3 @@
-# CONFIGURATION
-set :css_dir, "stylesheets"
-set :images_dir, "images"
-set :partials_dir, "partials"
 # Reload the browser automatically whenever files change
 activate :livereload, host: "localhost"
 # Make pretty URLs for every page (e.g. /foo rather than /foo.html)
@@ -79,8 +75,8 @@ helpers do
     end
   end
 
-  def link_to_section(page)
-    section_fragment = page.path.split("/").first
+  def link_to_section(resource)
+    section_fragment = resource.path.split("/").first
     link_to humanize_section_name(section_fragment), "/#{section_fragment}.html"
   end
 
