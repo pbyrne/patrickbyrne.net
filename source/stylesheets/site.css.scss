@@ -1,0 +1,39 @@
+$black: #333;
+$white: #fff;
+// orange-red: d83919
+// deep blue: 04244d
+// rust: 8d3029
+$color: #d83919;
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.wrapper {
+  margin: 0px auto;
+  width: 700px;
+}
+
+h1 {
+  color: $color;
+  font-size: 2em;
+  font-weight: normal;
+  margin-bottom: 0.5em;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+a {
+  color: $color;
+}
+
+footer {
+  border-top: 1px dotted $color;
+  margin-top: 3em;
+  padding-top: 1em;
+  text-align: center;
+}

@@ -1,9 +1,0 @@
----
-title: All Work
----
-
-<h1>All Work</h1>
-
-<% recent_work(:all).each do |item| %>
-  <%= partial "summary", locals: {item: item, prefix_title: false} %>
-<% end %>
