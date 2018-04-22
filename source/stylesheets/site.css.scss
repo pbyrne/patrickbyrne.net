@@ -5,6 +5,8 @@ $color: #d83919;
 $black: #444;
 $white: rgba($color, 0.02);
 
+$medium-width: 480px; // not mobile/narrow
+
 body {
   background: $white;
   color: $black;
@@ -27,7 +29,22 @@ h1 {
 }
 
 .avatar {
-  border-radius: 50%;
+  border-radius: 25%;
+  display: none;
+}
+
+@media screen and (min-width: $medium-width) {
+  .intro {
+    h1, p {
+      float: right;
+      width: calc(100% - 220px);
+    }
+  }
+
+  .avatar {
+    display: inline;
+    margin-top: 2em;
+  }
 }
 
 a {

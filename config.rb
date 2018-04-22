@@ -37,7 +37,7 @@ helpers do
   end
 
   def copyright
-    range = [2018, Date.today.year]
+    range = [2008, Date.today.year]
 
     "© #{range.uniq.join("–")}"
   end
