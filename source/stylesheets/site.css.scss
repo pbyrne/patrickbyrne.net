@@ -1,9 +1,9 @@
-$black: #444;
-$white: #f9f9f9;
 // orange-red: d83919
 // deep blue: 04244d
 // rust: 8d3029
 $color: #d83919;
+$black: #444;
+$white: rgba($color, 0.02);
 
 body {
   background: $white;
