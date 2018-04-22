@@ -1,11 +1,13 @@
-$black: #333;
-$white: #fff;
+$black: #444;
+$white: #f9f9f9;
 // orange-red: d83919
 // deep blue: 04244d
 // rust: 8d3029
 $color: #d83919;
 
 body {
+  background: $white;
+  color: $black;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 1.4;
