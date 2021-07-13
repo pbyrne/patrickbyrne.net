@@ -103,4 +103,4 @@ DEPENDENCIES
   middleman-autoprefixer (~> 2.7)
 
 BUNDLED WITH
-   1.17.3
+   2.2.17
