@@ -4,14 +4,17 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title><%= title current_page.data %></title>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+    <title> {{ title }} | Patrick Byrne</title>
+    <link rel="stylesheet" href="{{ "/stylesheets/site.css" }}" />
+    <script src="{{ "/javascripts/site.js" }}"></script>
   </head>
   <body>
     <section class="wrapper">
-      <%= yield %>
-      <%= partial "footer" %>
+      {{ content | safe }}
+
+      <footer>
+        © 2008–{{ "now" | date: "%Y" }} Patrick Byrne
+      </footer>
     </section>
   </body>
 </html>

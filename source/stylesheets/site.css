@@ -1,15 +1,12 @@
-// orange-red: d83919
-// deep blue: 04244d
-// rust: 8d3029
-$color: #d83919;
-$black: #444;
-$white: rgba($color, 0.02);
-
-$medium-width: 480px; // not mobile/narrow
+:root {
+  --color-black: #444;
+  --color-main: #d83919;
+  --color-white: #d8391908; /* --color-main but mostly transparent */
+}
 
 body {
-  background: $white;
-  color: $black;
+  background: var(--color-white);
+  color: var(--color-black);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   line-height: 1.4;
@@ -23,7 +20,7 @@ body {
 }
 
 h1 {
-  color: $color;
+  color: var(--color-main);
   font-size: 2em;
   font-weight: normal;
   line-height: 1;
@@ -35,12 +32,11 @@ h1 {
   display: none;
 }
 
-@media screen and (min-width: $medium-width) {
-  .intro {
-    h1, p {
-      float: right;
-      width: calc(100% - 220px);
-    }
+@media screen and (min-width: 480px) {
+  .intro h1, .intro p {
+    /* TODO: Use Flex instead of floats */
+    float: right;
+    width: calc(100% - 220px);
   }
 
   .avatar {
@@ -50,11 +46,11 @@ h1 {
 }
 
 a {
-  color: $color;
+  color: var(--color-main);
 }
 
 footer {
-  border-top: 1px dotted $color;
+  border-top: 1px dotted var(--color-main);
   margin-top: 3em;
   padding: 1em 0;
   text-align: center;
