@@ -1,6 +1,6 @@
 {
   "dependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "liquidjs": "^9.25.1"
+    "liquidjs": "^9.29.0"
   }
 }
