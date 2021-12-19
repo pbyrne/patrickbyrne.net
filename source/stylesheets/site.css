@@ -8,13 +8,15 @@ html {
 
 body {
   @apply bg-orange-50/50;
+  @apply dark:bg-slate-800;
   @apply font-light;
   @apply mx-3;
-  @apply text-xl;
   @apply text-slate-800;
+  @apply dark:text-orange-50/50;
+  @apply text-xl;
 }
 
-.wrapper {
+header, main, footer {
   @apply max-w-lg;
   @apply mx-auto;
   @apply my-0;
@@ -27,8 +29,8 @@ h1 {
   @apply text-orange-600;
 }
 
-.intro {
-  @apply md:gap-1;
+header {
+  @apply md:gap-4;
   @apply md:grid-cols-[8rem,1fr];
   @apply md:grid;
   @apply md:mt-8;
@@ -39,6 +41,8 @@ h1 {
     @apply md:row-span-2;
     @apply md:row-start-1;
     @apply rounded-xl;
+    @apply border;
+    @apply border-orange-600;
   }
 }
 
