@@ -1,7 +1,11 @@
 .PHONY: build
 build:
-	npx @11ty/eleventy
+	yarn run build
 
 .PHONY: serve
 serve:
-	npx @11ty/eleventy --serve
+	yarn run serve
+
+.PHONY: clean
+clean:
+	yarn run clean
