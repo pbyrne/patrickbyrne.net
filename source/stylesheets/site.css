@@ -7,19 +7,15 @@ html {
 }
 
 body {
-  @apply bg-orange-50/50;
-  @apply dark:bg-slate-800;
+  @apply text-slate-800 dark:text-orange-50/50 bg-orange-50/50 dark:bg-slate-800;
   @apply font-light;
   @apply mx-3;
-  @apply text-slate-800;
-  @apply dark:text-orange-50/50;
   @apply text-xl;
 }
 
 header, main, footer {
   @apply max-w-lg;
-  @apply mx-auto;
-  @apply my-0;
+  @apply mx-auto my-0;
 }
 
 h1 {
@@ -30,27 +26,19 @@ h1 {
 }
 
 header {
-  @apply md:gap-4;
-  @apply md:grid-cols-[8rem,1fr];
-  @apply md:grid;
+  @apply md:grid md:grid-cols-[8rem,1fr] md:gap-4;
   @apply md:mt-8;
 
   & .avatar {
-    @apply hidden;
-    @apply md:block;
-    @apply md:row-span-2;
-    @apply md:row-start-1;
-    @apply rounded-xl;
-    @apply border;
-    @apply border-orange-600;
+    @apply hidden md:block;
+    @apply md:row-span-2 md:row-start-1;
+    @apply border rounded-xl border-orange-600;
   }
 }
 
 a {
   @apply text-orange-600;
-  @apply border-b;
-  @apply border-dashed;
-  @apply border-orange-600;
+  @apply border-b border-dashed border-orange-600;
 }
 
 p {
@@ -58,11 +46,8 @@ p {
 }
 
 footer {
-  @apply border-dotted;
-  @apply border-orange-600;
-  @apply border-t;
-  @apply mb-4;
-  @apply mt-8;
+  @apply border-t border-dotted border-orange-600;
+  @apply mb-4 mt-8;
   @apply pt-4;
   @apply text-center;
   @apply text-sm;
@@ -76,4 +61,3 @@ footer {
     @apply p-1;
   }
 }
-
