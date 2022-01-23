@@ -1,6 +1,15 @@
 {
+  "name": "patrickbyrne.net",
+  "description": "Source code powering my personal website",
+  "homepage": "https://patrickbyrne.net",
+  "license": "See LICENSE file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbyrne/patrickbyrne.net.git"
+  },
   "engines": {
-    "node": "~16.13.0"
+    "node": "~16.13.0",
+    "npm": "~8.1.2"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0",
