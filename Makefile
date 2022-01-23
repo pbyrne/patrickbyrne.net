@@ -1,11 +1,11 @@
 .PHONY: build
 build:
-	yarn run build
+	npm run build
 
 .PHONY: serve
 serve:
-	yarn run serve
+	npm run serve
 
 .PHONY: clean
 clean:
-	yarn run clean
+	npm run clean
