@@ -28,12 +28,12 @@ h1 {
 header {
   @apply md:grid md:grid-cols-[8rem,1fr] md:gap-4;
   @apply md:mt-8;
+}
 
-  & .avatar {
-    @apply hidden md:block;
-    @apply md:row-span-2 md:row-start-1;
-    @apply border rounded-xl border-orange-600;
-  }
+.avatar {
+  @apply hidden md:block;
+  @apply md:row-span-2 md:row-start-1;
+  @apply border rounded-xl border-orange-600;
 }
 
 a {
@@ -53,11 +53,9 @@ footer {
   @apply text-sm;
 }
 
-.elsewhere {
-  & li {
-    @apply inline-block;
-    @apply hover:bg-orange-100;
-    @apply rounded-md;
-    @apply p-1;
-  }
+.elsewhere--link {
+  @apply inline-block;
+  @apply hover:bg-orange-100;
+  @apply rounded-md;
+  @apply p-1;
 }
