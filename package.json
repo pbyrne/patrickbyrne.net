@@ -8,7 +8,7 @@
     "url": "https://github.com/pbyrne/patrickbyrne.net.git"
   },
   "engines": {
-    "node": "~18.2.0",
+    "node": "~18.17.0",
     "npm": ">=8.9.0"
   },
   "dependencies": {
