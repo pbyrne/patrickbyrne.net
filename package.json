@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.2",
-    "autoprefixer": "^10.4.14",
+    "autoprefixer": "^10.4.15",
     "liquidjs": "^10.7.1",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.4.23",
