@@ -1,5 +1,6 @@
 {
   "name": "patrickbyrne.net",
+  "type": "module",
   "description": "Source code powering my personal website",
   "homepage": "https://patrickbyrne.net",
   "license": "See LICENSE file",
@@ -12,8 +13,8 @@
     "npm": ">=8.9.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-plugin-vite": "^5.0.0",
     "liquidjs": "^10.18.0"
   },
   "scripts": {
