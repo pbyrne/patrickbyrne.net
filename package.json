@@ -15,7 +15,6 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-vite": "^5.0.0",
-    "@11ty/eleventy-upgrade-help": "^3.0.1",
     "liquidjs": "^10.18.0"
   },
   "scripts": {
