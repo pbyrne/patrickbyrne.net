@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-vite": "^4.0.0",
+    "@11ty/eleventy-plugin-vite": "^5.0.0",
     "liquidjs": "^10.18.0"
   },
   "scripts": {
