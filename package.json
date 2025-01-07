@@ -15,7 +15,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-plugin-vite": "^5.0.2",
-    "liquidjs": "^10.19.0"
+    "liquidjs": "^10.20.0"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
